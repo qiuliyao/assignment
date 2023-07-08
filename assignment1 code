@@ -68,5 +68,5 @@ while count<nT
         else
             imwrite(imind,cm,'1d_diff_FTCS_Numerical solution.gif','gif','WriteMode','append');
         end
-    end %画图部分
+    end 
 end
