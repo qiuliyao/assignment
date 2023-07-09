@@ -1,6 +1,6 @@
 # one_dimensional_heat_diffusion_equation
 
-- assignment 1
+- assignment 2
   
 - For one dimension heat diffusion equation, ∂T/∂t=∂^2T/∂x^2;
 - its initial condition is the normal distribution: T0=A*exp(-(x-0.5*L).^2/(0.1*L)^2 ) ;
