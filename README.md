@@ -1,3 +1,13 @@
-# one_dimensional_heat_diffusion_equation
+# one dimensional heat diffusion and convection equation
 
-for one dimension heat diffusion equation, we use the FTCS differential format, which is the Euler forward in time central in space.
+- For one dimension heat convection equation: ∂T/∂t+u*∂T/∂x=K∂^2T/∂x^2;
+- its initial condition is the normal distribution: T0=A*exp(-(x-0.5*L).^2/(0.1*L)^2 ) ;
+- the boundary condition is dT/dx(x=0,x=L)=0;
+- L is the length we simulate;
+- u=0.1cm/s;
+- K is thermal diffuction coefficient;
+- lambda=u*dt/dx, lambda is the courant number, and it is bigger than 1;
+- time step required by the CFD stability condition is big.
+
+We use the BTCS implicit format. In the progress, the peak of temperature is moving slowly to the left and it gets cooler gradually.  
+Obviously, the temperature in the FTCS format falls faster. 
