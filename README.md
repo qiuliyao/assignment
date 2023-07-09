@@ -1,3 +1,3 @@
-# one_dimensional_heat_diffusion_equation
+# one dimensional heat diffusion and convection equation
 
-for one dimension heat diffusion equation, we use the FTCS differential format, which is the Euler forward in time central in space.
+The temperature fells very fast. After 0.03 seconds it becomes stable.
