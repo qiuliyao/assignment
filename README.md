@@ -9,4 +9,4 @@
 - lambda=u*dt/dx, lambda is the courant number, and it must be smaller than 1;
 
   
-The temperature fells very fast. After 0.03 seconds it becomes stable.
+温度不断进行对流扩散，在FTCS格式中，lambda<1时格式才稳定，而BTCS中lambda可以大于1.
